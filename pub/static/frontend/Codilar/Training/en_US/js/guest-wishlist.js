@@ -1,1 +1,0 @@
-/var/www/html/training/app/design/frontend/Codilar/Training/web/js/guest-wishlist.js

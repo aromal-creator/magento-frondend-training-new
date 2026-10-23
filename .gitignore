@@ -1,0 +1,17 @@
+# Local settings: DB password and encryption key
+/app/etc/env.php
+/auth.json
+
+# Installed by Composer
+/vendor/
+
+# Rebuilt by Magento automatically
+/generated/
+/var/
+/pub/static/*
+!/pub/static/.htaccess
+/pub/media/catalog/product/cache/
+
+# Editor / OS files
+.idea/
+.DS_Store

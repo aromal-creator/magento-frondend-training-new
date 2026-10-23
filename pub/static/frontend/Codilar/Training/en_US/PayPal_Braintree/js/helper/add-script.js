@@ -1,1 +1,0 @@
-/var/www/html/training/vendor/paypal/module-braintree-core/view/base/web/js/helper/add-script.js

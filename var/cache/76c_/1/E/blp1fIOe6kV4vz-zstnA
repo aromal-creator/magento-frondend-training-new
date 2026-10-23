@@ -1,3 +1,0 @@
-1792759144
-SERVICE_METHOD_PARAMS_AC6B83B59B2EFC81685D9CC1CB83A7B2
-a:4:{s:4:"data";s:132:"[{"name":"prices","type":"\\Magento\\Catalog\\Api\\Data\\BasePriceInterface[]","isDefaultValueAvailable":false,"defaultValue":null}]";s:5:"mtime";i:1792751944;s:6:"expire";i:1792759144;s:4:"tags";a:2:{i:0;s:10:"REFLECTION";i:1;s:4:"MAGE";}}

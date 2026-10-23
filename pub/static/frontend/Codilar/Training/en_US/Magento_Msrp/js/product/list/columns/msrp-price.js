@@ -1,1 +1,0 @@
-/var/www/html/training/vendor/magento/module-msrp/view/frontend/web/js/product/list/columns/msrp-price.js

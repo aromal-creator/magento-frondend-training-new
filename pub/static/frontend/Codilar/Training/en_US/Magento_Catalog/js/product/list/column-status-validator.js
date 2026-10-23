@@ -1,1 +1,0 @@
-/var/www/html/training/vendor/magento/module-catalog/view/base/web/js/product/list/column-status-validator.js

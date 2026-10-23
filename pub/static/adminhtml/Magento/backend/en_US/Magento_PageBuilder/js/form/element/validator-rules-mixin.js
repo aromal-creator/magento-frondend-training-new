@@ -1,1 +1,0 @@
-/var/www/html/training/vendor/magento/module-page-builder/view/adminhtml/web/js/form/element/validator-rules-mixin.js

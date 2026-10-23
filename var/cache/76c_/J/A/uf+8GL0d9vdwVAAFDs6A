@@ -1,8 +1,0 @@
-1792755463
-BLOCK_FAFA1425C7D57823432EB37C62C10B424805A6A27E8B63AAEC1A93D1BF2F4342
-a:4:{s:4:"data";s:1408:"
-<nav class="navigation" data-action="navigation">
-    <ul data-mage-init='{"menu":{"responsive":true, "expanded":true, "position":{"my":"left top","at":"left bottom"}}}'>
-        <li  class="level0 nav-1 category-item first level-top" role="presentation"><a href="http://localhost:8001/outdoor.html"  class="level-top" role="menuitem"><span>Outdoor</span></a></li><li  class="level0 nav-2 category-item level-top parent" role="presentation"><a href="http://localhost:8001/furniture.html"  class="level-top" role="menuitem"><span>Furniture</span></a><ul class="level0 submenu"><li  class="level1 nav-2-1 category-item first" role="presentation"><a href="http://localhost:8001/furniture/8-seater-dining.html" role="menuitem"><span>8-Seater Dining</span></a></li><li  class="level1 nav-2-2 category-item last parent" role="presentation"><a href="http://localhost:8001/furniture/sofa-seating.html" role="menuitem"><span>Sofa &amp; Seating</span></a><ul class="level1 submenu"><li  class="level2 nav-2-2-1 category-item first last" role="presentation"><a href="http://localhost:8001/furniture/sofa-seating/corner-sofa.html" role="menuitem"><span>Corner Sofa</span></a></li></ul></li></ul></li><li  class="level0 nav-3 category-item last level-top" role="presentation"><a href="http://localhost:8001/new-arrivals.html"  class="level-top" role="menuitem"><span>New Arrivals</span></a></li>            </ul>
-</nav>
-";s:5:"mtime";i:1792751863;s:6:"expire";i:1792755463;s:4:"tags";a:6:{i:0;s:10:"BLOCK_HTML";i:1;s:5:"CAT_C";i:2;s:7:"CAT_C_3";i:3;s:7:"CAT_C_4";i:4;s:7:"CAT_C_8";i:5;s:4:"MAGE";}}

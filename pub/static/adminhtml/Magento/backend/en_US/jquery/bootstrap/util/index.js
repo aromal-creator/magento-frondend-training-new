@@ -1,1 +1,0 @@
-/var/www/html/training/lib/web/jquery/bootstrap/util/index.js

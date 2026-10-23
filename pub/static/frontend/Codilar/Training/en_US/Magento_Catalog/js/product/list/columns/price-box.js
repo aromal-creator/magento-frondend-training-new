@@ -1,1 +1,0 @@
-/var/www/html/training/vendor/magento/module-catalog/view/base/web/js/product/list/columns/price-box.js

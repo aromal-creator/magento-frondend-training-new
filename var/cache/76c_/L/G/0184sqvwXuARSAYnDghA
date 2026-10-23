@@ -1,3 +1,0 @@
-1792759145
-SERVICEINTERFACEMETHODSMAP_0214D8FD4A901385D1707FF6271C4813
-a:4:{s:4:"data";s:143:"{"getList":{"type":"\\Magento\\Catalog\\Api\\Data\\ProductRenderSearchResultsInterface","isRequired":true,"description":"","parameterCount":3}}";s:5:"mtime";i:1792751945;s:6:"expire";i:1792759145;s:4:"tags";a:2:{i:0;s:10:"REFLECTION";i:1;s:4:"MAGE";}}

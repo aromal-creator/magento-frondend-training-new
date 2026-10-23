@@ -1,1 +1,0 @@
-/var/www/html/training/lib/web/jquery/spectrum/spectrum.js

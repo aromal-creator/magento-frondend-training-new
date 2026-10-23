@@ -1,3 +1,0 @@
-1792759144
-SERVICEINTERFACEMETHODSMAP_A360373CB94955C549B52FD4AC8076CA
-a:4:{s:4:"data";s:347:"{"getList":{"type":"\\Magento\\Quote\\Api\\Data\\CartItemInterface[]","isRequired":true,"description":"Array of items.","parameterCount":1},"save":{"type":"\\Magento\\Quote\\Api\\Data\\CartItemInterface","isRequired":true,"description":"Item.","parameterCount":1},"deleteById":{"type":"bool","isRequired":true,"description":"","parameterCount":2}}";s:5:"mtime";i:1792751944;s:6:"expire";i:1792759144;s:4:"tags";a:2:{i:0;s:10:"REFLECTION";i:1;s:4:"MAGE";}}

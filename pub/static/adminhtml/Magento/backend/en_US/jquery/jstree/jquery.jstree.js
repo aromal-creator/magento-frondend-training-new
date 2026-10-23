@@ -1,1 +1,0 @@
-/var/www/html/training/lib/web/jquery/jstree/jquery.jstree.js

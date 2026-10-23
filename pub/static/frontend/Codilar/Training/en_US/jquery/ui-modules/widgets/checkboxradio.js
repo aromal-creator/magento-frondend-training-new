@@ -1,1 +1,0 @@
-/var/www/html/training/lib/web/jquery/ui-modules/widgets/checkboxradio.js
