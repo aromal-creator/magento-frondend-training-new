@@ -1,0 +1,1205 @@
+1792838279
+BLOCK_52407A0675BAC03C904452C4F1CA636E3E825E5D5E1D9B109E27FDB20B64DBC2
+a:4:{s:4:"data";s:86855:"        <div class="block widget block-products-list grid home-carousel"
+         data-mage-init='{"js/carousel": {}}'>
+                <div class="block-content">
+            <!-- new_products_content_widget_grid-->            <div class="products-grid grid">
+                <ol class="product-items widget-product-grid" data-role="track">
+                                                                <li class="product-item">                        <div class="product-item-info">
+                            <a href="http://localhost:8001/maja-8-seater-dining-table.html" class="product-item-photo">
+                                <span class="product-image-container product-image-container-29">
+    <span class="product-image-wrapper">
+        <img class="product-image-photo"
+                        src="http://localhost:8001/media/catalog/product/cache/919e875234a30128bd8c4bdfbc4a75d8/1/3/130606_1.jpg"
+            loading="lazy"
+            width="400"
+            height="328"
+            alt="Maja&#x20;8&#x20;Seater&#x20;Dining&#x20;table"/></span>
+</span>
+<style>.product-image-container-29 {
+    width: 400px;
+    height: auto;
+    aspect-ratio: 400 / 328;
+}
+.product-image-container-29 span.product-image-wrapper {
+    height: 100%;
+    width: 100%;
+}
+@supports not (aspect-ratio: auto) { 
+    .product-image-container-29 span.product-image-wrapper {
+        padding-bottom: 82%;
+    }
+}</style>                                    <span class="product-new-label">New Arrival</span>
+                            </a>
+                            <div class="product-item-details">
+                                <strong class="product-item-name">
+                                    <a title="Maja 8 Seater Dining table"
+                                       href="http://localhost:8001/maja-8-seater-dining-table.html"
+                                       class="product-item-link">
+                                        Maja 8 Seater Dining table                                    </a>
+                                </strong>
+                                                                                                    
+                                <div class="price-box price-final_price" data-role="priceBox" data-product-id="29" data-price-box="product-id-29">
+    <span class="special-price">
+        
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+            <span class="price-label">Special Price</span>
+        <span  id="old-price-29-widget-product-grid"                data-price-amount="2690"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+    ><span class="price">AED 2,690.00</span></span>
+        </span>
+    </span>
+    <span class="old-price">
+        
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+            <span class="price-label">Regular Price</span>
+        <span  id="old-price-29-widget-product-grid"                data-price-amount="3395"
+        data-price-type="oldPrice"
+        class="price-wrapper "
+    ><span class="price">AED 3,395.00</span></span>
+        </span>
+    </span>
+                <span class="price-discount">(21% off)</span>
+    
+</div>
+                                
+                                                                    <div class="product-item-inner">
+                                        <div class="product-item-actions">
+                                                                                            <div class="actions-primary">
+                                                                                                                                                                    <form data-role="tocart-form" data-product-sku="130606" action="http://localhost:8001/checkout/cart/add/uenc/aHR0cDovL2xvY2FsaG9zdDo4MDAxLw~~/product/29/" method="post">
+                                                                                                                                                                                    <input type="hidden" name="product" value="29">
+                                                            <input type="hidden" name="uenc" value="aHR0cDovL2xvY2FsaG9zdDo4MDAxL2NoZWNrb3V0L2NhcnQvYWRkL3VlbmMvYUhSMGNEb3ZMMnh2WTJGc2FHOXpkRG80TURBeEx3fn4vcHJvZHVjdC8yOS8~">
+                                                            <input name="form_key" type="hidden" value="8YjBH1tOMAe2FVSl" />                                                            <button type="submit"
+                                                                    title="Add to Cart"
+                                                                    class="action tocart primary">
+                                                                <span>Add to Cart</span>
+                                                            </button>
+                                                        </form>
+                                                                                                                <script type="text/x-magento-init">
+                                                        {
+                                                            "[data-role=tocart-form], .form.map.checkout": {
+                                                                "catalogAddToCart": {
+                                                                    "product_sku": "130606"
+                                                                }
+                                                            }
+                                                        }
+                                                        </script>
+                                                                                                                                                            </div>
+                                                                                                                                        <div class="actions-secondary" data-role="add-to-links">
+                                                    <a href="http://localhost:8001/maja-8-seater-dining-table.html" class="action toview"
+                                                       title="View&#x20;Product">
+                                                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M1 12s4-7 11-7 11 7 11 7-4 7-11 7S1 12 1 12z"/><circle cx="12" cy="12" r="3"/></svg>
+                                                    </a>
+                                                                                                            <a href="#"
+                                                           data-post='{"action":"http:\/\/localhost:8001\/wishlist\/index\/add\/","data":{"product":29,"uenc":"aHR0cDovL2xvY2FsaG9zdDo4MDAxLw~~"}}' class="action towishlist" data-action="add-to-wishlist" title="Add&#x20;to&#x20;Wish&#x20;List">
+                                                            <span>Add to Wish List</span>
+                                                        </a>
+                                                                                                                                                        </div>
+                                                                                    </div>
+                                    </div>
+                                                            </div>
+                        </div>
+                                                                    </li><li class="product-item">                        <div class="product-item-info">
+                            <a href="http://localhost:8001/zeloh-king-bed-180x200cm.html" class="product-item-photo">
+                                <span class="product-image-container product-image-container-30">
+    <span class="product-image-wrapper">
+        <img class="product-image-photo"
+                        src="http://localhost:8001/media/catalog/product/cache/919e875234a30128bd8c4bdfbc4a75d8/1/3/130632_1.jpg"
+            loading="lazy"
+            width="400"
+            height="328"
+            alt="Zeloh&#x20;King&#x20;bed&#x20;-180x200cm"/></span>
+</span>
+<style>.product-image-container-30 {
+    width: 400px;
+    height: auto;
+    aspect-ratio: 400 / 328;
+}
+.product-image-container-30 span.product-image-wrapper {
+    height: 100%;
+    width: 100%;
+}
+@supports not (aspect-ratio: auto) { 
+    .product-image-container-30 span.product-image-wrapper {
+        padding-bottom: 82%;
+    }
+}</style>                                    <span class="product-new-label">New Arrival</span>
+                            </a>
+                            <div class="product-item-details">
+                                <strong class="product-item-name">
+                                    <a title="Zeloh King bed -180x200cm"
+                                       href="http://localhost:8001/zeloh-king-bed-180x200cm.html"
+                                       class="product-item-link">
+                                        Zeloh King bed -180x200cm                                    </a>
+                                </strong>
+                                                                                                    
+                                <div class="price-box price-final_price" data-role="priceBox" data-product-id="30" data-price-box="product-id-30">
+    <span class="special-price">
+        
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+            <span class="price-label">Special Price</span>
+        <span  id="old-price-30-widget-product-grid"                data-price-amount="6350"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+    ><span class="price">AED 6,350.00</span></span>
+        </span>
+    </span>
+    <span class="old-price">
+        
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+            <span class="price-label">Regular Price</span>
+        <span  id="old-price-30-widget-product-grid"                data-price-amount="7995"
+        data-price-type="oldPrice"
+        class="price-wrapper "
+    ><span class="price">AED 7,995.00</span></span>
+        </span>
+    </span>
+                <span class="price-discount">(21% off)</span>
+    
+</div>
+                                
+                                                                    <div class="product-item-inner">
+                                        <div class="product-item-actions">
+                                                                                            <div class="actions-primary">
+                                                                                                                                                                    <form data-role="tocart-form" data-product-sku="130632" action="http://localhost:8001/checkout/cart/add/uenc/aHR0cDovL2xvY2FsaG9zdDo4MDAxLw~~/product/30/" method="post">
+                                                                                                                                                                                    <input type="hidden" name="product" value="30">
+                                                            <input type="hidden" name="uenc" value="aHR0cDovL2xvY2FsaG9zdDo4MDAxL2NoZWNrb3V0L2NhcnQvYWRkL3VlbmMvYUhSMGNEb3ZMMnh2WTJGc2FHOXpkRG80TURBeEx3fn4vcHJvZHVjdC8zMC8~">
+                                                            <input name="form_key" type="hidden" value="8YjBH1tOMAe2FVSl" />                                                            <button type="submit"
+                                                                    title="Add to Cart"
+                                                                    class="action tocart primary">
+                                                                <span>Add to Cart</span>
+                                                            </button>
+                                                        </form>
+                                                                                                                <script type="text/x-magento-init">
+                                                        {
+                                                            "[data-role=tocart-form], .form.map.checkout": {
+                                                                "catalogAddToCart": {
+                                                                    "product_sku": "130632"
+                                                                }
+                                                            }
+                                                        }
+                                                        </script>
+                                                                                                                                                            </div>
+                                                                                                                                        <div class="actions-secondary" data-role="add-to-links">
+                                                    <a href="http://localhost:8001/zeloh-king-bed-180x200cm.html" class="action toview"
+                                                       title="View&#x20;Product">
+                                                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M1 12s4-7 11-7 11 7 11 7-4 7-11 7S1 12 1 12z"/><circle cx="12" cy="12" r="3"/></svg>
+                                                    </a>
+                                                                                                            <a href="#"
+                                                           data-post='{"action":"http:\/\/localhost:8001\/wishlist\/index\/add\/","data":{"product":30,"uenc":"aHR0cDovL2xvY2FsaG9zdDo4MDAxLw~~"}}' class="action towishlist" data-action="add-to-wishlist" title="Add&#x20;to&#x20;Wish&#x20;List">
+                                                            <span>Add to Wish List</span>
+                                                        </a>
+                                                                                                                                                        </div>
+                                                                                    </div>
+                                    </div>
+                                                            </div>
+                        </div>
+                                                                    </li><li class="product-item">                        <div class="product-item-info">
+                            <a href="http://localhost:8001/mardid-3-seater-sofa.html" class="product-item-photo">
+                                <span class="product-image-container product-image-container-31">
+    <span class="product-image-wrapper">
+        <img class="product-image-photo"
+                        src="http://localhost:8001/media/catalog/product/cache/919e875234a30128bd8c4bdfbc4a75d8/1/2/129680_1.jpg"
+            loading="lazy"
+            width="400"
+            height="328"
+            alt="Mardid&#x20;3&#x20;Seater&#x20;sofa"/></span>
+</span>
+<style>.product-image-container-31 {
+    width: 400px;
+    height: auto;
+    aspect-ratio: 400 / 328;
+}
+.product-image-container-31 span.product-image-wrapper {
+    height: 100%;
+    width: 100%;
+}
+@supports not (aspect-ratio: auto) { 
+    .product-image-container-31 span.product-image-wrapper {
+        padding-bottom: 82%;
+    }
+}</style>                                    <span class="product-new-label">New Arrival</span>
+                            </a>
+                            <div class="product-item-details">
+                                <strong class="product-item-name">
+                                    <a title="Mardid 3 Seater sofa"
+                                       href="http://localhost:8001/mardid-3-seater-sofa.html"
+                                       class="product-item-link">
+                                        Mardid 3 Seater sofa                                    </a>
+                                </strong>
+                                                                                                    
+                                <div class="price-box price-final_price" data-role="priceBox" data-product-id="31" data-price-box="product-id-31">
+    <span class="special-price">
+        
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+            <span class="price-label">Special Price</span>
+        <span  id="old-price-31-widget-product-grid"                data-price-amount="7650"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+    ><span class="price">AED 7,650.00</span></span>
+        </span>
+    </span>
+    <span class="old-price">
+        
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+            <span class="price-label">Regular Price</span>
+        <span  id="old-price-31-widget-product-grid"                data-price-amount="9595"
+        data-price-type="oldPrice"
+        class="price-wrapper "
+    ><span class="price">AED 9,595.00</span></span>
+        </span>
+    </span>
+                <span class="price-discount">(20% off)</span>
+    
+</div>
+                                
+                                                                    <div class="product-item-inner">
+                                        <div class="product-item-actions">
+                                                                                            <div class="actions-primary">
+                                                                                                                                                                    <form data-role="tocart-form" data-product-sku="129680" action="http://localhost:8001/checkout/cart/add/uenc/aHR0cDovL2xvY2FsaG9zdDo4MDAxLw~~/product/31/" method="post">
+                                                                                                                                                                                    <input type="hidden" name="product" value="31">
+                                                            <input type="hidden" name="uenc" value="aHR0cDovL2xvY2FsaG9zdDo4MDAxL2NoZWNrb3V0L2NhcnQvYWRkL3VlbmMvYUhSMGNEb3ZMMnh2WTJGc2FHOXpkRG80TURBeEx3fn4vcHJvZHVjdC8zMS8~">
+                                                            <input name="form_key" type="hidden" value="8YjBH1tOMAe2FVSl" />                                                            <button type="submit"
+                                                                    title="Add to Cart"
+                                                                    class="action tocart primary">
+                                                                <span>Add to Cart</span>
+                                                            </button>
+                                                        </form>
+                                                                                                                <script type="text/x-magento-init">
+                                                        {
+                                                            "[data-role=tocart-form], .form.map.checkout": {
+                                                                "catalogAddToCart": {
+                                                                    "product_sku": "129680"
+                                                                }
+                                                            }
+                                                        }
+                                                        </script>
+                                                                                                                                                            </div>
+                                                                                                                                        <div class="actions-secondary" data-role="add-to-links">
+                                                    <a href="http://localhost:8001/mardid-3-seater-sofa.html" class="action toview"
+                                                       title="View&#x20;Product">
+                                                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M1 12s4-7 11-7 11 7 11 7-4 7-11 7S1 12 1 12z"/><circle cx="12" cy="12" r="3"/></svg>
+                                                    </a>
+                                                                                                            <a href="#"
+                                                           data-post='{"action":"http:\/\/localhost:8001\/wishlist\/index\/add\/","data":{"product":31,"uenc":"aHR0cDovL2xvY2FsaG9zdDo4MDAxLw~~"}}' class="action towishlist" data-action="add-to-wishlist" title="Add&#x20;to&#x20;Wish&#x20;List">
+                                                            <span>Add to Wish List</span>
+                                                        </a>
+                                                                                                                                                        </div>
+                                                                                    </div>
+                                    </div>
+                                                            </div>
+                        </div>
+                                                                    </li><li class="product-item">                        <div class="product-item-info">
+                            <a href="http://localhost:8001/mauricio-single-seater-sofa.html" class="product-item-photo">
+                                <span class="product-image-container product-image-container-32">
+    <span class="product-image-wrapper">
+        <img class="product-image-photo"
+                        src="http://localhost:8001/media/catalog/product/cache/919e875234a30128bd8c4bdfbc4a75d8/1/2/129683_1.jpg"
+            loading="lazy"
+            width="400"
+            height="328"
+            alt="Mauricio&#x20;Single&#x20;seater&#x20;sofa"/></span>
+</span>
+<style>.product-image-container-32 {
+    width: 400px;
+    height: auto;
+    aspect-ratio: 400 / 328;
+}
+.product-image-container-32 span.product-image-wrapper {
+    height: 100%;
+    width: 100%;
+}
+@supports not (aspect-ratio: auto) { 
+    .product-image-container-32 span.product-image-wrapper {
+        padding-bottom: 82%;
+    }
+}</style>                                    <span class="product-new-label">New Arrival</span>
+                            </a>
+                            <div class="product-item-details">
+                                <strong class="product-item-name">
+                                    <a title="Mauricio Single seater sofa"
+                                       href="http://localhost:8001/mauricio-single-seater-sofa.html"
+                                       class="product-item-link">
+                                        Mauricio Single seater sofa                                    </a>
+                                </strong>
+                                                                                                    
+                                <div class="price-box price-final_price" data-role="priceBox" data-product-id="32" data-price-box="product-id-32">
+    <span class="special-price">
+        
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+            <span class="price-label">Special Price</span>
+        <span  id="old-price-32-widget-product-grid"                data-price-amount="4750"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+    ><span class="price">AED 4,750.00</span></span>
+        </span>
+    </span>
+    <span class="old-price">
+        
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+            <span class="price-label">Regular Price</span>
+        <span  id="old-price-32-widget-product-grid"                data-price-amount="5995"
+        data-price-type="oldPrice"
+        class="price-wrapper "
+    ><span class="price">AED 5,995.00</span></span>
+        </span>
+    </span>
+                <span class="price-discount">(21% off)</span>
+    
+</div>
+                                
+                                                                    <div class="product-item-inner">
+                                        <div class="product-item-actions">
+                                                                                            <div class="actions-primary">
+                                                                                                                                                                    <form data-role="tocart-form" data-product-sku="129683" action="http://localhost:8001/checkout/cart/add/uenc/aHR0cDovL2xvY2FsaG9zdDo4MDAxLw~~/product/32/" method="post">
+                                                                                                                                                                                    <input type="hidden" name="product" value="32">
+                                                            <input type="hidden" name="uenc" value="aHR0cDovL2xvY2FsaG9zdDo4MDAxL2NoZWNrb3V0L2NhcnQvYWRkL3VlbmMvYUhSMGNEb3ZMMnh2WTJGc2FHOXpkRG80TURBeEx3fn4vcHJvZHVjdC8zMi8~">
+                                                            <input name="form_key" type="hidden" value="8YjBH1tOMAe2FVSl" />                                                            <button type="submit"
+                                                                    title="Add to Cart"
+                                                                    class="action tocart primary">
+                                                                <span>Add to Cart</span>
+                                                            </button>
+                                                        </form>
+                                                                                                                <script type="text/x-magento-init">
+                                                        {
+                                                            "[data-role=tocart-form], .form.map.checkout": {
+                                                                "catalogAddToCart": {
+                                                                    "product_sku": "129683"
+                                                                }
+                                                            }
+                                                        }
+                                                        </script>
+                                                                                                                                                            </div>
+                                                                                                                                        <div class="actions-secondary" data-role="add-to-links">
+                                                    <a href="http://localhost:8001/mauricio-single-seater-sofa.html" class="action toview"
+                                                       title="View&#x20;Product">
+                                                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M1 12s4-7 11-7 11 7 11 7-4 7-11 7S1 12 1 12z"/><circle cx="12" cy="12" r="3"/></svg>
+                                                    </a>
+                                                                                                            <a href="#"
+                                                           data-post='{"action":"http:\/\/localhost:8001\/wishlist\/index\/add\/","data":{"product":32,"uenc":"aHR0cDovL2xvY2FsaG9zdDo4MDAxLw~~"}}' class="action towishlist" data-action="add-to-wishlist" title="Add&#x20;to&#x20;Wish&#x20;List">
+                                                            <span>Add to Wish List</span>
+                                                        </a>
+                                                                                                                                                        </div>
+                                                                                    </div>
+                                    </div>
+                                                            </div>
+                        </div>
+                                                                    </li><li class="product-item">                        <div class="product-item-info">
+                            <a href="http://localhost:8001/kantana-2-seater-sofa.html" class="product-item-photo">
+                                <span class="product-image-container product-image-container-33">
+    <span class="product-image-wrapper">
+        <img class="product-image-photo"
+                        src="http://localhost:8001/media/catalog/product/cache/919e875234a30128bd8c4bdfbc4a75d8/1/3/130582_1.jpg"
+            loading="lazy"
+            width="400"
+            height="328"
+            alt="Kantana&#x20;2&#x20;Seater&#x20;Sofa"/></span>
+</span>
+<style>.product-image-container-33 {
+    width: 400px;
+    height: auto;
+    aspect-ratio: 400 / 328;
+}
+.product-image-container-33 span.product-image-wrapper {
+    height: 100%;
+    width: 100%;
+}
+@supports not (aspect-ratio: auto) { 
+    .product-image-container-33 span.product-image-wrapper {
+        padding-bottom: 82%;
+    }
+}</style>                                    <span class="product-new-label">New Arrival</span>
+                            </a>
+                            <div class="product-item-details">
+                                <strong class="product-item-name">
+                                    <a title="Kantana 2 Seater Sofa"
+                                       href="http://localhost:8001/kantana-2-seater-sofa.html"
+                                       class="product-item-link">
+                                        Kantana 2 Seater Sofa                                    </a>
+                                </strong>
+                                                                                                    
+                                <div class="price-box price-final_price" data-role="priceBox" data-product-id="33" data-price-box="product-id-33">
+    <span class="special-price">
+        
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+            <span class="price-label">Special Price</span>
+        <span  id="old-price-33-widget-product-grid"                data-price-amount="2550"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+    ><span class="price">AED 2,550.00</span></span>
+        </span>
+    </span>
+    <span class="old-price">
+        
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+            <span class="price-label">Regular Price</span>
+        <span  id="old-price-33-widget-product-grid"                data-price-amount="3195"
+        data-price-type="oldPrice"
+        class="price-wrapper "
+    ><span class="price">AED 3,195.00</span></span>
+        </span>
+    </span>
+                <span class="price-discount">(20% off)</span>
+    
+</div>
+                                
+                                                                    <div class="product-item-inner">
+                                        <div class="product-item-actions">
+                                                                                            <div class="actions-primary">
+                                                                                                                                                                    <form data-role="tocart-form" data-product-sku="130582" action="http://localhost:8001/checkout/cart/add/uenc/aHR0cDovL2xvY2FsaG9zdDo4MDAxLw~~/product/33/" method="post">
+                                                                                                                                                                                    <input type="hidden" name="product" value="33">
+                                                            <input type="hidden" name="uenc" value="aHR0cDovL2xvY2FsaG9zdDo4MDAxL2NoZWNrb3V0L2NhcnQvYWRkL3VlbmMvYUhSMGNEb3ZMMnh2WTJGc2FHOXpkRG80TURBeEx3fn4vcHJvZHVjdC8zMy8~">
+                                                            <input name="form_key" type="hidden" value="8YjBH1tOMAe2FVSl" />                                                            <button type="submit"
+                                                                    title="Add to Cart"
+                                                                    class="action tocart primary">
+                                                                <span>Add to Cart</span>
+                                                            </button>
+                                                        </form>
+                                                                                                                <script type="text/x-magento-init">
+                                                        {
+                                                            "[data-role=tocart-form], .form.map.checkout": {
+                                                                "catalogAddToCart": {
+                                                                    "product_sku": "130582"
+                                                                }
+                                                            }
+                                                        }
+                                                        </script>
+                                                                                                                                                            </div>
+                                                                                                                                        <div class="actions-secondary" data-role="add-to-links">
+                                                    <a href="http://localhost:8001/kantana-2-seater-sofa.html" class="action toview"
+                                                       title="View&#x20;Product">
+                                                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M1 12s4-7 11-7 11 7 11 7-4 7-11 7S1 12 1 12z"/><circle cx="12" cy="12" r="3"/></svg>
+                                                    </a>
+                                                                                                            <a href="#"
+                                                           data-post='{"action":"http:\/\/localhost:8001\/wishlist\/index\/add\/","data":{"product":33,"uenc":"aHR0cDovL2xvY2FsaG9zdDo4MDAxLw~~"}}' class="action towishlist" data-action="add-to-wishlist" title="Add&#x20;to&#x20;Wish&#x20;List">
+                                                            <span>Add to Wish List</span>
+                                                        </a>
+                                                                                                                                                        </div>
+                                                                                    </div>
+                                    </div>
+                                                            </div>
+                        </div>
+                                                                    </li><li class="product-item">                        <div class="product-item-info">
+                            <a href="http://localhost:8001/kantana-single-seater-sofa.html" class="product-item-photo">
+                                <span class="product-image-container product-image-container-34">
+    <span class="product-image-wrapper">
+        <img class="product-image-photo"
+                        src="http://localhost:8001/media/catalog/product/cache/919e875234a30128bd8c4bdfbc4a75d8/1/3/130583_1.jpg"
+            loading="lazy"
+            width="400"
+            height="328"
+            alt="Kantana&#x20;Single&#x20;Seater&#x20;Sofa"/></span>
+</span>
+<style>.product-image-container-34 {
+    width: 400px;
+    height: auto;
+    aspect-ratio: 400 / 328;
+}
+.product-image-container-34 span.product-image-wrapper {
+    height: 100%;
+    width: 100%;
+}
+@supports not (aspect-ratio: auto) { 
+    .product-image-container-34 span.product-image-wrapper {
+        padding-bottom: 82%;
+    }
+}</style>                                    <span class="product-new-label">New Arrival</span>
+                            </a>
+                            <div class="product-item-details">
+                                <strong class="product-item-name">
+                                    <a title="Kantana Single Seater Sofa"
+                                       href="http://localhost:8001/kantana-single-seater-sofa.html"
+                                       class="product-item-link">
+                                        Kantana Single Seater Sofa                                    </a>
+                                </strong>
+                                                                                                    
+                                <div class="price-box price-final_price" data-role="priceBox" data-product-id="34" data-price-box="product-id-34">
+    <span class="special-price">
+        
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+            <span class="price-label">Special Price</span>
+        <span  id="old-price-34-widget-product-grid"                data-price-amount="1270"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+    ><span class="price">AED 1,270.00</span></span>
+        </span>
+    </span>
+    <span class="old-price">
+        
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+            <span class="price-label">Regular Price</span>
+        <span  id="old-price-34-widget-product-grid"                data-price-amount="1595"
+        data-price-type="oldPrice"
+        class="price-wrapper "
+    ><span class="price">AED 1,595.00</span></span>
+        </span>
+    </span>
+                <span class="price-discount">(20% off)</span>
+    
+</div>
+                                
+                                                                    <div class="product-item-inner">
+                                        <div class="product-item-actions">
+                                                                                            <div class="actions-primary">
+                                                                                                                                                                    <form data-role="tocart-form" data-product-sku="130583" action="http://localhost:8001/checkout/cart/add/uenc/aHR0cDovL2xvY2FsaG9zdDo4MDAxLw~~/product/34/" method="post">
+                                                                                                                                                                                    <input type="hidden" name="product" value="34">
+                                                            <input type="hidden" name="uenc" value="aHR0cDovL2xvY2FsaG9zdDo4MDAxL2NoZWNrb3V0L2NhcnQvYWRkL3VlbmMvYUhSMGNEb3ZMMnh2WTJGc2FHOXpkRG80TURBeEx3fn4vcHJvZHVjdC8zNC8~">
+                                                            <input name="form_key" type="hidden" value="8YjBH1tOMAe2FVSl" />                                                            <button type="submit"
+                                                                    title="Add to Cart"
+                                                                    class="action tocart primary">
+                                                                <span>Add to Cart</span>
+                                                            </button>
+                                                        </form>
+                                                                                                                <script type="text/x-magento-init">
+                                                        {
+                                                            "[data-role=tocart-form], .form.map.checkout": {
+                                                                "catalogAddToCart": {
+                                                                    "product_sku": "130583"
+                                                                }
+                                                            }
+                                                        }
+                                                        </script>
+                                                                                                                                                            </div>
+                                                                                                                                        <div class="actions-secondary" data-role="add-to-links">
+                                                    <a href="http://localhost:8001/kantana-single-seater-sofa.html" class="action toview"
+                                                       title="View&#x20;Product">
+                                                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M1 12s4-7 11-7 11 7 11 7-4 7-11 7S1 12 1 12z"/><circle cx="12" cy="12" r="3"/></svg>
+                                                    </a>
+                                                                                                            <a href="#"
+                                                           data-post='{"action":"http:\/\/localhost:8001\/wishlist\/index\/add\/","data":{"product":34,"uenc":"aHR0cDovL2xvY2FsaG9zdDo4MDAxLw~~"}}' class="action towishlist" data-action="add-to-wishlist" title="Add&#x20;to&#x20;Wish&#x20;List">
+                                                            <span>Add to Wish List</span>
+                                                        </a>
+                                                                                                                                                        </div>
+                                                                                    </div>
+                                    </div>
+                                                            </div>
+                        </div>
+                                                                    </li><li class="product-item">                        <div class="product-item-info">
+                            <a href="http://localhost:8001/hayeon-table-spoon.html" class="product-item-photo">
+                                <span class="product-image-container product-image-container-35">
+    <span class="product-image-wrapper">
+        <img class="product-image-photo"
+                        src="http://localhost:8001/media/catalog/product/cache/919e875234a30128bd8c4bdfbc4a75d8/1/3/132259_1.jpg"
+            loading="lazy"
+            width="400"
+            height="328"
+            alt="Hayeon&#x20;Table&#x20;Spoon"/></span>
+</span>
+<style>.product-image-container-35 {
+    width: 400px;
+    height: auto;
+    aspect-ratio: 400 / 328;
+}
+.product-image-container-35 span.product-image-wrapper {
+    height: 100%;
+    width: 100%;
+}
+@supports not (aspect-ratio: auto) { 
+    .product-image-container-35 span.product-image-wrapper {
+        padding-bottom: 82%;
+    }
+}</style>                                    <span class="product-new-label">New Arrival</span>
+                            </a>
+                            <div class="product-item-details">
+                                <strong class="product-item-name">
+                                    <a title="Hayeon Table Spoon"
+                                       href="http://localhost:8001/hayeon-table-spoon.html"
+                                       class="product-item-link">
+                                        Hayeon Table Spoon                                    </a>
+                                </strong>
+                                                                                                    
+                                <div class="price-box price-final_price" data-role="priceBox" data-product-id="35" data-price-box="product-id-35">
+    <span class="special-price">
+        
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+            <span class="price-label">Special Price</span>
+        <span  id="old-price-35-widget-product-grid"                data-price-amount="12"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+    ><span class="price">AED 12.00</span></span>
+        </span>
+    </span>
+    <span class="old-price">
+        
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+            <span class="price-label">Regular Price</span>
+        <span  id="old-price-35-widget-product-grid"                data-price-amount="15"
+        data-price-type="oldPrice"
+        class="price-wrapper "
+    ><span class="price">AED 15.00</span></span>
+        </span>
+    </span>
+                <span class="price-discount">(20% off)</span>
+    
+</div>
+                                
+                                                                    <div class="product-item-inner">
+                                        <div class="product-item-actions">
+                                                                                            <div class="actions-primary">
+                                                                                                                                                                    <form data-role="tocart-form" data-product-sku="132259" action="http://localhost:8001/checkout/cart/add/uenc/aHR0cDovL2xvY2FsaG9zdDo4MDAxLw~~/product/35/" method="post">
+                                                                                                                                                                                    <input type="hidden" name="product" value="35">
+                                                            <input type="hidden" name="uenc" value="aHR0cDovL2xvY2FsaG9zdDo4MDAxL2NoZWNrb3V0L2NhcnQvYWRkL3VlbmMvYUhSMGNEb3ZMMnh2WTJGc2FHOXpkRG80TURBeEx3fn4vcHJvZHVjdC8zNS8~">
+                                                            <input name="form_key" type="hidden" value="8YjBH1tOMAe2FVSl" />                                                            <button type="submit"
+                                                                    title="Add to Cart"
+                                                                    class="action tocart primary">
+                                                                <span>Add to Cart</span>
+                                                            </button>
+                                                        </form>
+                                                                                                                <script type="text/x-magento-init">
+                                                        {
+                                                            "[data-role=tocart-form], .form.map.checkout": {
+                                                                "catalogAddToCart": {
+                                                                    "product_sku": "132259"
+                                                                }
+                                                            }
+                                                        }
+                                                        </script>
+                                                                                                                                                            </div>
+                                                                                                                                        <div class="actions-secondary" data-role="add-to-links">
+                                                    <a href="http://localhost:8001/hayeon-table-spoon.html" class="action toview"
+                                                       title="View&#x20;Product">
+                                                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M1 12s4-7 11-7 11 7 11 7-4 7-11 7S1 12 1 12z"/><circle cx="12" cy="12" r="3"/></svg>
+                                                    </a>
+                                                                                                            <a href="#"
+                                                           data-post='{"action":"http:\/\/localhost:8001\/wishlist\/index\/add\/","data":{"product":35,"uenc":"aHR0cDovL2xvY2FsaG9zdDo4MDAxLw~~"}}' class="action towishlist" data-action="add-to-wishlist" title="Add&#x20;to&#x20;Wish&#x20;List">
+                                                            <span>Add to Wish List</span>
+                                                        </a>
+                                                                                                                                                        </div>
+                                                                                    </div>
+                                    </div>
+                                                            </div>
+                        </div>
+                                                                    </li><li class="product-item">                        <div class="product-item-info">
+                            <a href="http://localhost:8001/stitch-2-seater-sofa.html" class="product-item-photo">
+                                <span class="product-image-container product-image-container-36">
+    <span class="product-image-wrapper">
+        <img class="product-image-photo"
+                        src="http://localhost:8001/media/catalog/product/cache/919e875234a30128bd8c4bdfbc4a75d8/1/3/130758_1.jpg"
+            loading="lazy"
+            width="400"
+            height="328"
+            alt="Stitch&#x20;2&#x20;seater&#x20;sofa"/></span>
+</span>
+<style>.product-image-container-36 {
+    width: 400px;
+    height: auto;
+    aspect-ratio: 400 / 328;
+}
+.product-image-container-36 span.product-image-wrapper {
+    height: 100%;
+    width: 100%;
+}
+@supports not (aspect-ratio: auto) { 
+    .product-image-container-36 span.product-image-wrapper {
+        padding-bottom: 82%;
+    }
+}</style>                                    <span class="product-new-label">New Arrival</span>
+                            </a>
+                            <div class="product-item-details">
+                                <strong class="product-item-name">
+                                    <a title="Stitch 2 seater sofa"
+                                       href="http://localhost:8001/stitch-2-seater-sofa.html"
+                                       class="product-item-link">
+                                        Stitch 2 seater sofa                                    </a>
+                                </strong>
+                                                                                                    
+                                <div class="price-box price-final_price" data-role="priceBox" data-product-id="36" data-price-box="product-id-36">
+    <span class="special-price">
+        
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+            <span class="price-label">Special Price</span>
+        <span  id="old-price-36-widget-product-grid"                data-price-amount="4350"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+    ><span class="price">AED 4,350.00</span></span>
+        </span>
+    </span>
+    <span class="old-price">
+        
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+            <span class="price-label">Regular Price</span>
+        <span  id="old-price-36-widget-product-grid"                data-price-amount="5495"
+        data-price-type="oldPrice"
+        class="price-wrapper "
+    ><span class="price">AED 5,495.00</span></span>
+        </span>
+    </span>
+                <span class="price-discount">(21% off)</span>
+    
+</div>
+                                
+                                                                    <div class="product-item-inner">
+                                        <div class="product-item-actions">
+                                                                                            <div class="actions-primary">
+                                                                                                                                                                    <form data-role="tocart-form" data-product-sku="130758" action="http://localhost:8001/checkout/cart/add/uenc/aHR0cDovL2xvY2FsaG9zdDo4MDAxLw~~/product/36/" method="post">
+                                                                                                                                                                                    <input type="hidden" name="product" value="36">
+                                                            <input type="hidden" name="uenc" value="aHR0cDovL2xvY2FsaG9zdDo4MDAxL2NoZWNrb3V0L2NhcnQvYWRkL3VlbmMvYUhSMGNEb3ZMMnh2WTJGc2FHOXpkRG80TURBeEx3fn4vcHJvZHVjdC8zNi8~">
+                                                            <input name="form_key" type="hidden" value="8YjBH1tOMAe2FVSl" />                                                            <button type="submit"
+                                                                    title="Add to Cart"
+                                                                    class="action tocart primary">
+                                                                <span>Add to Cart</span>
+                                                            </button>
+                                                        </form>
+                                                                                                                <script type="text/x-magento-init">
+                                                        {
+                                                            "[data-role=tocart-form], .form.map.checkout": {
+                                                                "catalogAddToCart": {
+                                                                    "product_sku": "130758"
+                                                                }
+                                                            }
+                                                        }
+                                                        </script>
+                                                                                                                                                            </div>
+                                                                                                                                        <div class="actions-secondary" data-role="add-to-links">
+                                                    <a href="http://localhost:8001/stitch-2-seater-sofa.html" class="action toview"
+                                                       title="View&#x20;Product">
+                                                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M1 12s4-7 11-7 11 7 11 7-4 7-11 7S1 12 1 12z"/><circle cx="12" cy="12" r="3"/></svg>
+                                                    </a>
+                                                                                                            <a href="#"
+                                                           data-post='{"action":"http:\/\/localhost:8001\/wishlist\/index\/add\/","data":{"product":36,"uenc":"aHR0cDovL2xvY2FsaG9zdDo4MDAxLw~~"}}' class="action towishlist" data-action="add-to-wishlist" title="Add&#x20;to&#x20;Wish&#x20;List">
+                                                            <span>Add to Wish List</span>
+                                                        </a>
+                                                                                                                                                        </div>
+                                                                                    </div>
+                                    </div>
+                                                            </div>
+                        </div>
+                                                                    </li><li class="product-item">                        <div class="product-item-info">
+                            <a href="http://localhost:8001/alp-marble-top-coffee-table.html" class="product-item-photo">
+                                <span class="product-image-container product-image-container-37">
+    <span class="product-image-wrapper">
+        <img class="product-image-photo"
+                        src="http://localhost:8001/media/catalog/product/cache/919e875234a30128bd8c4bdfbc4a75d8/1/3/130350_1.jpg"
+            loading="lazy"
+            width="400"
+            height="328"
+            alt="Alp&#x20;marble&#x20;top&#x20;Coffee&#x20;Table"/></span>
+</span>
+<style>.product-image-container-37 {
+    width: 400px;
+    height: auto;
+    aspect-ratio: 400 / 328;
+}
+.product-image-container-37 span.product-image-wrapper {
+    height: 100%;
+    width: 100%;
+}
+@supports not (aspect-ratio: auto) { 
+    .product-image-container-37 span.product-image-wrapper {
+        padding-bottom: 82%;
+    }
+}</style>                                    <span class="product-new-label">New Arrival</span>
+                            </a>
+                            <div class="product-item-details">
+                                <strong class="product-item-name">
+                                    <a title="Alp marble top Coffee Table"
+                                       href="http://localhost:8001/alp-marble-top-coffee-table.html"
+                                       class="product-item-link">
+                                        Alp marble top Coffee Table                                    </a>
+                                </strong>
+                                                                                                    
+                                <div class="price-box price-final_price" data-role="priceBox" data-product-id="37" data-price-box="product-id-37">
+    <span class="special-price">
+        
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+            <span class="price-label">Special Price</span>
+        <span  id="old-price-37-widget-product-grid"                data-price-amount="1349"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+    ><span class="price">AED 1,349.00</span></span>
+        </span>
+    </span>
+    <span class="old-price">
+        
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+            <span class="price-label">Regular Price</span>
+        <span  id="old-price-37-widget-product-grid"                data-price-amount="1695"
+        data-price-type="oldPrice"
+        class="price-wrapper "
+    ><span class="price">AED 1,695.00</span></span>
+        </span>
+    </span>
+                <span class="price-discount">(20% off)</span>
+    
+</div>
+                                
+                                                                    <div class="product-item-inner">
+                                        <div class="product-item-actions">
+                                                                                            <div class="actions-primary">
+                                                                                                                                                                    <form data-role="tocart-form" data-product-sku="130350" action="http://localhost:8001/checkout/cart/add/uenc/aHR0cDovL2xvY2FsaG9zdDo4MDAxLw~~/product/37/" method="post">
+                                                                                                                                                                                    <input type="hidden" name="product" value="37">
+                                                            <input type="hidden" name="uenc" value="aHR0cDovL2xvY2FsaG9zdDo4MDAxL2NoZWNrb3V0L2NhcnQvYWRkL3VlbmMvYUhSMGNEb3ZMMnh2WTJGc2FHOXpkRG80TURBeEx3fn4vcHJvZHVjdC8zNy8~">
+                                                            <input name="form_key" type="hidden" value="8YjBH1tOMAe2FVSl" />                                                            <button type="submit"
+                                                                    title="Add to Cart"
+                                                                    class="action tocart primary">
+                                                                <span>Add to Cart</span>
+                                                            </button>
+                                                        </form>
+                                                                                                                <script type="text/x-magento-init">
+                                                        {
+                                                            "[data-role=tocart-form], .form.map.checkout": {
+                                                                "catalogAddToCart": {
+                                                                    "product_sku": "130350"
+                                                                }
+                                                            }
+                                                        }
+                                                        </script>
+                                                                                                                                                            </div>
+                                                                                                                                        <div class="actions-secondary" data-role="add-to-links">
+                                                    <a href="http://localhost:8001/alp-marble-top-coffee-table.html" class="action toview"
+                                                       title="View&#x20;Product">
+                                                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M1 12s4-7 11-7 11 7 11 7-4 7-11 7S1 12 1 12z"/><circle cx="12" cy="12" r="3"/></svg>
+                                                    </a>
+                                                                                                            <a href="#"
+                                                           data-post='{"action":"http:\/\/localhost:8001\/wishlist\/index\/add\/","data":{"product":37,"uenc":"aHR0cDovL2xvY2FsaG9zdDo4MDAxLw~~"}}' class="action towishlist" data-action="add-to-wishlist" title="Add&#x20;to&#x20;Wish&#x20;List">
+                                                            <span>Add to Wish List</span>
+                                                        </a>
+                                                                                                                                                        </div>
+                                                                                    </div>
+                                    </div>
+                                                            </div>
+                        </div>
+                                                                    </li><li class="product-item">                        <div class="product-item-info">
+                            <a href="http://localhost:8001/maja-coffee-table.html" class="product-item-photo">
+                                <span class="product-image-container product-image-container-38">
+    <span class="product-image-wrapper">
+        <img class="product-image-photo"
+                        src="http://localhost:8001/media/catalog/product/cache/919e875234a30128bd8c4bdfbc4a75d8/1/3/130607_1.jpg"
+            loading="lazy"
+            width="400"
+            height="328"
+            alt="Maja&#x20;Coffee&#x20;Table"/></span>
+</span>
+<style>.product-image-container-38 {
+    width: 400px;
+    height: auto;
+    aspect-ratio: 400 / 328;
+}
+.product-image-container-38 span.product-image-wrapper {
+    height: 100%;
+    width: 100%;
+}
+@supports not (aspect-ratio: auto) { 
+    .product-image-container-38 span.product-image-wrapper {
+        padding-bottom: 82%;
+    }
+}</style>                                    <span class="product-new-label">New Arrival</span>
+                            </a>
+                            <div class="product-item-details">
+                                <strong class="product-item-name">
+                                    <a title="Maja Coffee Table"
+                                       href="http://localhost:8001/maja-coffee-table.html"
+                                       class="product-item-link">
+                                        Maja Coffee Table                                    </a>
+                                </strong>
+                                                                                                    
+                                <div class="price-box price-final_price" data-role="priceBox" data-product-id="38" data-price-box="product-id-38">
+    <span class="special-price">
+        
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+            <span class="price-label">Special Price</span>
+        <span  id="old-price-38-widget-product-grid"                data-price-amount="1340"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+    ><span class="price">AED 1,340.00</span></span>
+        </span>
+    </span>
+    <span class="old-price">
+        
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+            <span class="price-label">Regular Price</span>
+        <span  id="old-price-38-widget-product-grid"                data-price-amount="1695"
+        data-price-type="oldPrice"
+        class="price-wrapper "
+    ><span class="price">AED 1,695.00</span></span>
+        </span>
+    </span>
+                <span class="price-discount">(21% off)</span>
+    
+</div>
+                                
+                                                                    <div class="product-item-inner">
+                                        <div class="product-item-actions">
+                                                                                            <div class="actions-primary">
+                                                                                                                                                                    <form data-role="tocart-form" data-product-sku="130607" action="http://localhost:8001/checkout/cart/add/uenc/aHR0cDovL2xvY2FsaG9zdDo4MDAxLw~~/product/38/" method="post">
+                                                                                                                                                                                    <input type="hidden" name="product" value="38">
+                                                            <input type="hidden" name="uenc" value="aHR0cDovL2xvY2FsaG9zdDo4MDAxL2NoZWNrb3V0L2NhcnQvYWRkL3VlbmMvYUhSMGNEb3ZMMnh2WTJGc2FHOXpkRG80TURBeEx3fn4vcHJvZHVjdC8zOC8~">
+                                                            <input name="form_key" type="hidden" value="8YjBH1tOMAe2FVSl" />                                                            <button type="submit"
+                                                                    title="Add to Cart"
+                                                                    class="action tocart primary">
+                                                                <span>Add to Cart</span>
+                                                            </button>
+                                                        </form>
+                                                                                                                <script type="text/x-magento-init">
+                                                        {
+                                                            "[data-role=tocart-form], .form.map.checkout": {
+                                                                "catalogAddToCart": {
+                                                                    "product_sku": "130607"
+                                                                }
+                                                            }
+                                                        }
+                                                        </script>
+                                                                                                                                                            </div>
+                                                                                                                                        <div class="actions-secondary" data-role="add-to-links">
+                                                    <a href="http://localhost:8001/maja-coffee-table.html" class="action toview"
+                                                       title="View&#x20;Product">
+                                                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M1 12s4-7 11-7 11 7 11 7-4 7-11 7S1 12 1 12z"/><circle cx="12" cy="12" r="3"/></svg>
+                                                    </a>
+                                                                                                            <a href="#"
+                                                           data-post='{"action":"http:\/\/localhost:8001\/wishlist\/index\/add\/","data":{"product":38,"uenc":"aHR0cDovL2xvY2FsaG9zdDo4MDAxLw~~"}}' class="action towishlist" data-action="add-to-wishlist" title="Add&#x20;to&#x20;Wish&#x20;List">
+                                                            <span>Add to Wish List</span>
+                                                        </a>
+                                                                                                                                                        </div>
+                                                                                    </div>
+                                    </div>
+                                                            </div>
+                        </div>
+                                                                    </li><li class="product-item">                        <div class="product-item-info">
+                            <a href="http://localhost:8001/maja-side-table-set-of-2.html" class="product-item-photo">
+                                <span class="product-image-container product-image-container-39">
+    <span class="product-image-wrapper">
+        <img class="product-image-photo"
+                        src="http://localhost:8001/media/catalog/product/cache/919e875234a30128bd8c4bdfbc4a75d8/1/3/130608_1.jpg"
+            loading="lazy"
+            width="400"
+            height="328"
+            alt="Maja&#x20;Side&#x20;Table&#x20;Set&#x20;of&#x20;2"/></span>
+</span>
+<style>.product-image-container-39 {
+    width: 400px;
+    height: auto;
+    aspect-ratio: 400 / 328;
+}
+.product-image-container-39 span.product-image-wrapper {
+    height: 100%;
+    width: 100%;
+}
+@supports not (aspect-ratio: auto) { 
+    .product-image-container-39 span.product-image-wrapper {
+        padding-bottom: 82%;
+    }
+}</style>                                    <span class="product-new-label">New Arrival</span>
+                            </a>
+                            <div class="product-item-details">
+                                <strong class="product-item-name">
+                                    <a title="Maja Side Table Set of 2"
+                                       href="http://localhost:8001/maja-side-table-set-of-2.html"
+                                       class="product-item-link">
+                                        Maja Side Table Set of 2                                    </a>
+                                </strong>
+                                                                                                    
+                                <div class="price-box price-final_price" data-role="priceBox" data-product-id="39" data-price-box="product-id-39">
+    <span class="special-price">
+        
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+            <span class="price-label">Special Price</span>
+        <span  id="old-price-39-widget-product-grid"                data-price-amount="1570"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+    ><span class="price">AED 1,570.00</span></span>
+        </span>
+    </span>
+    <span class="old-price">
+        
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+            <span class="price-label">Regular Price</span>
+        <span  id="old-price-39-widget-product-grid"                data-price-amount="1995"
+        data-price-type="oldPrice"
+        class="price-wrapper "
+    ><span class="price">AED 1,995.00</span></span>
+        </span>
+    </span>
+                <span class="price-discount">(21% off)</span>
+    
+</div>
+                                
+                                                                    <div class="product-item-inner">
+                                        <div class="product-item-actions">
+                                                                                            <div class="actions-primary">
+                                                                                                                                                                    <form data-role="tocart-form" data-product-sku="130608" action="http://localhost:8001/checkout/cart/add/uenc/aHR0cDovL2xvY2FsaG9zdDo4MDAxLw~~/product/39/" method="post">
+                                                                                                                                                                                    <input type="hidden" name="product" value="39">
+                                                            <input type="hidden" name="uenc" value="aHR0cDovL2xvY2FsaG9zdDo4MDAxL2NoZWNrb3V0L2NhcnQvYWRkL3VlbmMvYUhSMGNEb3ZMMnh2WTJGc2FHOXpkRG80TURBeEx3fn4vcHJvZHVjdC8zOS8~">
+                                                            <input name="form_key" type="hidden" value="8YjBH1tOMAe2FVSl" />                                                            <button type="submit"
+                                                                    title="Add to Cart"
+                                                                    class="action tocart primary">
+                                                                <span>Add to Cart</span>
+                                                            </button>
+                                                        </form>
+                                                                                                                <script type="text/x-magento-init">
+                                                        {
+                                                            "[data-role=tocart-form], .form.map.checkout": {
+                                                                "catalogAddToCart": {
+                                                                    "product_sku": "130608"
+                                                                }
+                                                            }
+                                                        }
+                                                        </script>
+                                                                                                                                                            </div>
+                                                                                                                                        <div class="actions-secondary" data-role="add-to-links">
+                                                    <a href="http://localhost:8001/maja-side-table-set-of-2.html" class="action toview"
+                                                       title="View&#x20;Product">
+                                                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M1 12s4-7 11-7 11 7 11 7-4 7-11 7S1 12 1 12z"/><circle cx="12" cy="12" r="3"/></svg>
+                                                    </a>
+                                                                                                            <a href="#"
+                                                           data-post='{"action":"http:\/\/localhost:8001\/wishlist\/index\/add\/","data":{"product":39,"uenc":"aHR0cDovL2xvY2FsaG9zdDo4MDAxLw~~"}}' class="action towishlist" data-action="add-to-wishlist" title="Add&#x20;to&#x20;Wish&#x20;List">
+                                                            <span>Add to Wish List</span>
+                                                        </a>
+                                                                                                                                                        </div>
+                                                                                    </div>
+                                    </div>
+                                                            </div>
+                        </div>
+                                                                    </li><li class="product-item">                        <div class="product-item-info">
+                            <a href="http://localhost:8001/stitch-single-seater-sofa.html" class="product-item-photo">
+                                <span class="product-image-container product-image-container-40">
+    <span class="product-image-wrapper">
+        <img class="product-image-photo"
+                        src="http://localhost:8001/media/catalog/product/cache/919e875234a30128bd8c4bdfbc4a75d8/1/3/130757_1.jpg"
+            loading="lazy"
+            width="400"
+            height="328"
+            alt="Stitch&#x20;Single&#x20;Seater&#x20;Sofa"/></span>
+</span>
+<style>.product-image-container-40 {
+    width: 400px;
+    height: auto;
+    aspect-ratio: 400 / 328;
+}
+.product-image-container-40 span.product-image-wrapper {
+    height: 100%;
+    width: 100%;
+}
+@supports not (aspect-ratio: auto) { 
+    .product-image-container-40 span.product-image-wrapper {
+        padding-bottom: 82%;
+    }
+}</style>                                    <span class="product-new-label">New Arrival</span>
+                            </a>
+                            <div class="product-item-details">
+                                <strong class="product-item-name">
+                                    <a title="Stitch Single Seater Sofa"
+                                       href="http://localhost:8001/stitch-single-seater-sofa.html"
+                                       class="product-item-link">
+                                        Stitch Single Seater Sofa                                    </a>
+                                </strong>
+                                                                                                    
+                                <div class="price-box price-final_price" data-role="priceBox" data-product-id="40" data-price-box="product-id-40">
+    <span class="special-price">
+        
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+            <span class="price-label">Special Price</span>
+        <span  id="old-price-40-widget-product-grid"                data-price-amount="2380"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+    ><span class="price">AED 2,380.00</span></span>
+        </span>
+    </span>
+    <span class="old-price">
+        
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+            <span class="price-label">Regular Price</span>
+        <span  id="old-price-40-widget-product-grid"                data-price-amount="2995"
+        data-price-type="oldPrice"
+        class="price-wrapper "
+    ><span class="price">AED 2,995.00</span></span>
+        </span>
+    </span>
+                <span class="price-discount">(21% off)</span>
+    
+</div>
+                                
+                                                                    <div class="product-item-inner">
+                                        <div class="product-item-actions">
+                                                                                            <div class="actions-primary">
+                                                                                                                                                                    <form data-role="tocart-form" data-product-sku="130757" action="http://localhost:8001/checkout/cart/add/uenc/aHR0cDovL2xvY2FsaG9zdDo4MDAxLw~~/product/40/" method="post">
+                                                                                                                                                                                    <input type="hidden" name="product" value="40">
+                                                            <input type="hidden" name="uenc" value="aHR0cDovL2xvY2FsaG9zdDo4MDAxL2NoZWNrb3V0L2NhcnQvYWRkL3VlbmMvYUhSMGNEb3ZMMnh2WTJGc2FHOXpkRG80TURBeEx3fn4vcHJvZHVjdC80MC8~">
+                                                            <input name="form_key" type="hidden" value="8YjBH1tOMAe2FVSl" />                                                            <button type="submit"
+                                                                    title="Add to Cart"
+                                                                    class="action tocart primary">
+                                                                <span>Add to Cart</span>
+                                                            </button>
+                                                        </form>
+                                                                                                                <script type="text/x-magento-init">
+                                                        {
+                                                            "[data-role=tocart-form], .form.map.checkout": {
+                                                                "catalogAddToCart": {
+                                                                    "product_sku": "130757"
+                                                                }
+                                                            }
+                                                        }
+                                                        </script>
+                                                                                                                                                            </div>
+                                                                                                                                        <div class="actions-secondary" data-role="add-to-links">
+                                                    <a href="http://localhost:8001/stitch-single-seater-sofa.html" class="action toview"
+                                                       title="View&#x20;Product">
+                                                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M1 12s4-7 11-7 11 7 11 7-4 7-11 7S1 12 1 12z"/><circle cx="12" cy="12" r="3"/></svg>
+                                                    </a>
+                                                                                                            <a href="#"
+                                                           data-post='{"action":"http:\/\/localhost:8001\/wishlist\/index\/add\/","data":{"product":40,"uenc":"aHR0cDovL2xvY2FsaG9zdDo4MDAxLw~~"}}' class="action towishlist" data-action="add-to-wishlist" title="Add&#x20;to&#x20;Wish&#x20;List">
+                                                            <span>Add to Wish List</span>
+                                                        </a>
+                                                                                                                                                        </div>
+                                                                                    </div>
+                                    </div>
+                                                            </div>
+                        </div>
+                        </li>                                    </ol>
+            </div>
+            <button type="button" class="carousel-arrow prev" data-role="prev"
+                    aria-label="Previous"></button>
+            <button type="button" class="carousel-arrow next" data-role="next"
+                    aria-label="Next"></button>
+            <div class="carousel-dots" data-role="dots"></div>
+                    </div>
+    </div>
+";s:5:"mtime";i:1792751879;s:6:"expire";i:1792838279;s:4:"tags";a:15:{i:0;s:5:"CAT_P";i:1;s:10:"BLOCK_HTML";i:2;s:8:"CAT_P_40";i:3;s:8:"CAT_P_39";i:4;s:8:"CAT_P_38";i:5;s:8:"CAT_P_37";i:6;s:8:"CAT_P_36";i:7;s:8:"CAT_P_35";i:8;s:8:"CAT_P_34";i:9;s:8:"CAT_P_33";i:10;s:8:"CAT_P_32";i:11;s:8:"CAT_P_31";i:12;s:8:"CAT_P_30";i:13;s:8:"CAT_P_29";i:14;s:4:"MAGE";}}

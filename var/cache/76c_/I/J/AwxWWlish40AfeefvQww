@@ -1,0 +1,32 @@
+1792838319
+BLOCK_35709B4B8C9912D1EB303550A02CA6273EAAB6A47F80A239C04F8D3140BD8948_21_FINAL_PRICE_AED_20261023_1_0_
+a:4:{s:4:"data";s:1160:"<div class="price-box price-final_price" data-role="priceBox" data-product-id="21" data-price-box="product-id-21">
+    <span class="special-price">
+        
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+         itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+            <span class="price-label">Special Price</span>
+        <span  id="product-price-21"                data-price-amount="3950"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+    ><span class="price">AED 3,950.00</span></span>
+                <meta itemprop="price" content="3950" />
+        <meta itemprop="priceCurrency" content="AED" />
+    </span>
+    </span>
+    <span class="old-price">
+        
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+            <span class="price-label">Regular Price</span>
+        <span  id="old-price-21"                data-price-amount="4995"
+        data-price-type="oldPrice"
+        class="price-wrapper "
+    ><span class="price">AED 4,995.00</span></span>
+        </span>
+    </span>
+                <span class="price-discount">(21% off)</span>
+    
+</div>";s:5:"mtime";i:1792751919;s:6:"expire";i:1792838319;s:4:"tags";a:4:{i:0;s:10:"BLOCK_HTML";i:1;s:8:"CAT_P_21";i:2;s:5:"CAT_P";i:3;s:4:"MAGE";}}

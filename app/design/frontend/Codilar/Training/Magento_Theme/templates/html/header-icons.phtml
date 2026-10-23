@@ -1,0 +1,49 @@
+<?php
+/** @var \Magento\Customer\Block\Account\AuthorizationLink $block */
+/** @var \Magento\Framework\Escaper $escaper */
+?>
+<div class="header-icons">
+    <a class="header-icon" href="<?= $escaper->escapeUrl($block->getUrl('customer/account')) ?>"
+       title="<?= $escaper->escapeHtmlAttr(__('My Account')) ?>">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/>
+        </svg>
+        <span class="label"><?= $escaper->escapeHtml(__('My Account')) ?></span>
+    </a>
+    <a class="header-icon header-wishlist"
+       href="<?= $escaper->escapeUrl($block->getUrl($block->isLoggedIn() ? 'wishlist' : 'guest-wishlist')) ?>"
+       title="<?= $escaper->escapeHtmlAttr(__('My Wish List')) ?>">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M12 20s-7.5-4.6-9.3-9.4C1.6 7.4 3.8 4 7.2 4c2 0 3.6 1.1 4.8 2.8C13.2 5.1 14.8 4 16.8 4c3.4 0 5.6 3.4 4.5 6.6C19.5 15.4 12 20 12 20z"/>
+        </svg>
+        <span class="counter" data-role="guest-wishlist-count" style="display:none"></span>
+        <span class="label"><?= $escaper->escapeHtml(__('My Wish List')) ?></span>
+    </a>
+    <a class="header-icon" href="<?= $escaper->escapeUrl($block->getUrl('contact')) ?>"
+       title="<?= $escaper->escapeHtmlAttr(__('Find a Store')) ?>">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M12 22s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/>
+        </svg>
+        <span class="label"><?= $escaper->escapeHtml(__('Find a Store')) ?></span>
+    </a>
+    <?php if ($block->isLoggedIn()): ?>
+        <a class="header-icon" href="#" data-post='<?= /* @noEscape */ $block->getPostParams() ?>'
+           title="<?= $escaper->escapeHtmlAttr(__('Sign Out')) ?>">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><path d="M16 17l5-5-5-5"/><path d="M21 12H9"/>
+            </svg>
+            <span class="label"><?= $escaper->escapeHtml(__('Sign Out')) ?></span>
+        </a>
+    <?php endif; ?>
+</div>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "js/guest-wishlist": {
+                "loggedIn": <?= $block->isLoggedIn() ? 'true' : 'false' ?>,
+                "addUrl": "<?= $escaper->escapeJs($block->getUrl('wishlist/index/add')) ?>",
+                "accountWishlistUrl": "<?= $escaper->escapeJs($block->getUrl('wishlist')) ?>"
+            }
+        }
+    }
+</script>

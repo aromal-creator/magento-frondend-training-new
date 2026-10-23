@@ -1,0 +1,1 @@
+/var/www/html/training/vendor/magento/module-ui/view/frontend/web/js/model/messageList.js

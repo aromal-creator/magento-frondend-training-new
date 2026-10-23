@@ -1,0 +1,10 @@
+<?php
+/** @var \Magento\Catalog\Block\Product\View $block */
+/** @var \Magento\Framework\Escaper $escaper */
+$priceInfo = $block->getProduct()->getPriceInfo();
+$isDiscounted = $priceInfo->getPrice('final_price')->getAmount()->getValue()
+    < $priceInfo->getPrice('regular_price')->getAmount()->getValue();
+?>
+<?php if ($isDiscounted): ?>
+    <span class="pdp-badge"><?= $escaper->escapeHtml(__('Special Offer Discount')) ?></span>
+<?php endif; ?>

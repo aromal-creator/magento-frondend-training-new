@@ -1,0 +1,13 @@
+<?php
+/** @var \Magento\Catalog\Block\Product\View $block */
+/** @var \Magento\Framework\Escaper $escaper */
+$product = $block->getProduct();
+// Category the shopper came from, otherwise the product's deepest category
+$category = $product->getCategory() ?: $product->getCategoryCollection()
+    ->addAttributeToSelect('name')
+    ->setOrder('level', 'DESC')
+    ->getFirstItem();
+?>
+<?php if ($category && $category->getName()): ?>
+    <div class="pdp-category"><?= $escaper->escapeHtml($category->getName()) ?></div>
+<?php endif; ?>

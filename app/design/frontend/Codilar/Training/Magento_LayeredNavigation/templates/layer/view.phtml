@@ -1,0 +1,30 @@
+<?php
+/**
+ * Layered navigation as a horizontal bar: one dropdown per filter.
+ *
+ * @var $block \Magento\LayeredNavigation\Block\Navigation
+ */
+?>
+<?php if ($block->canShowBlock()) : ?>
+    <div class="block filter">
+        <div class="block-content filter-content">
+            <?= $block->getChildHtml('state') ?>
+
+            <?php if ($block->getLayer()->getState()->getFilters()) : ?>
+                <div class="block-actions filter-actions">
+                    <a href="<?= $block->escapeUrl($block->getClearUrl()) ?>" class="action clear filter-clear"><span><?= $block->escapeHtml(__('Clear All')) ?></span></a>
+                </div>
+            <?php endif; ?>
+            <div class="filter-options" id="narrow-by-list">
+                <?php foreach ($block->getFilters() as $filter) : ?>
+                    <?php if ($filter->getItemsCount()) : ?>
+                        <details class="filter-dropdown">
+                            <summary><?= $block->escapeHtml(__($filter->getName())) ?></summary>
+                            <div class="filter-options-content"><?= /* @noEscape */ $block->getChildBlock('renderer')->render($filter) ?></div>
+                        </details>
+                    <?php endif; ?>
+                <?php endforeach; ?>
+            </div>
+        </div>
+    </div>
+<?php endif; ?>

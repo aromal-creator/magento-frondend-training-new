@@ -1,0 +1,11 @@
+<?php
+/** @var $block \Magento\Catalog\Block\Product\ProductList\Item\Block */
+?>
+<a href="<?= $block->escapeUrl($block->getProduct()->getProductUrl()) ?>"
+   class="action toview"
+   title="<?= $block->escapeHtmlAttr(__('View Product')) ?>"
+   aria-label="<?= $block->escapeHtmlAttr(__('View Product')) ?>">
+    <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+        <path d="M1 12s4-7 11-7 11 7 11 7-4 7-11 7S1 12 1 12z"/><circle cx="12" cy="12" r="3"/>
+    </svg>
+</a>

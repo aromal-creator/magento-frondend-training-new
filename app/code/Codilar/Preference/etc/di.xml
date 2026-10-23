@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <!-- Whenever Magento creates a product model, use our class instead -->
+    <preference for="Magento\Catalog\Model\Product"
+                type="Codilar\Preference\Model\Product"/>
+</config>

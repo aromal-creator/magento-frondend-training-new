@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <!-- Remove account links + welcome message from the top bar (Blank theme name) -->
+        <referenceBlock name="top.links" remove="true"/>
+
+        <!-- Black top bar -->
+        <referenceContainer name="header.panel">
+            <block class="Magento\Cms\Block\Block" name="header.top.bar">
+                <arguments>
+                    <argument name="block_id" xsi:type="string">header-top-bar</argument>
+                </arguments>
+            </block>
+        </referenceContainer>
+
+        <!-- Account + location icons (+ log out when signed in) -->
+        <referenceContainer name="header-wrapper">
+            <block class="Magento\Customer\Block\Account\AuthorizationLink" name="header.icons"
+                   template="Magento_Theme::html/header-icons.phtml" after="top.search"/>
+        </referenceContainer>
+
+        <!-- Remove Blank's default footer links -->
+        <referenceBlock name="footer_links" remove="true"/>
+        <referenceContainer name="cms_footer_links_container" remove="true"/>
+        <referenceBlock name="report.bugs" remove="true"/>
+
+        <!-- Footer: link columns | newsletter, then social + popular searches -->
+        <referenceContainer name="footer">
+            <block class="Magento\Cms\Block\Block" name="footer.columns" before="form.subscribe">
+                <arguments>
+                    <argument name="block_id" xsi:type="string">footer-columns</argument>
+                </arguments>
+            </block>
+            <block class="Magento\Cms\Block\Block" name="footer.bottom" after="form.subscribe">
+                <arguments>
+                    <argument name="block_id" xsi:type="string">footer-bottom</argument>
+                </arguments>
+            </block>
+        </referenceContainer>
+    </body>
+</page>

@@ -1,0 +1,129 @@
+<?php
+/**
+ * Sougha points + Tabby / Tamara instalment boxes, each opening a plans popup (Magento modal).
+ *
+ * Plans are illustrative, calculated from the product price with the fees 2XL shows.
+ * Live widgets need the Tabby / Tamara Magento extensions and merchant API keys.
+ *
+ * @var \Magento\Catalog\Block\Product\View $block
+ * @var \Magento\Framework\Escaper $escaper
+ */
+$price = (float)$block->getProduct()->getPriceInfo()->getPrice('final_price')->getAmount()->getValue();
+$priceHelper = $this->helper(\Magento\Framework\Pricing\Helper\Data::class);
+$money = fn($amount) => $priceHelper->currency($amount, true, false);
+
+// Total fee on top of the price for each plan length
+$tabbyPlans = [4 => 0, 6 => 0.05, 8 => 0.09, 12 => 0.17];
+$tamaraPlans = [2 => 0, 3 => 0, 4 => 0, 6 => 0]; // plain split; from 4 payments "fees may apply"
+$tamaraLong = $price >= 2000; // 9 and 12 payments only above AED 2,000
+$tamaraLongPlans = [9 => 0.17, 12 => 0.17];
+$monthly = fn($months, $fee) => $price * (1 + $fee) / $months;
+?>
+<?php if ($price > 0): ?>
+<div class="pdp-bnpl">
+    <div class="pdp-points">
+        <svg width="34" height="34" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M3 3h7v7H3zM5 5v3h3V5zM14 3h7v7h-7zm2 2v3h3V5zM3 14h7v7H3zm2 2v3h3v-3zM14 14h3v3h-3zM18 18h3v3h-3zM18 14h3v3h-3zM14 18h3v3h-3z"/>
+        </svg>
+        <span><?= $escaper->escapeHtml(__('Earn %1 points', floor($price / 1.4))) ?></span>
+    </div>
+
+    <button type="button" class="pdp-bnpl-box" data-trigger="tabby-plans">
+        <span class="pdp-bnpl-text">
+            <?= $escaper->escapeHtml(__('As low as')) ?>
+            <strong><?= $escaper->escapeHtml($money($monthly(12, $tabbyPlans[12]))) ?>/<?= $escaper->escapeHtml(__('month')) ?></strong>
+            <?= $escaper->escapeHtml(__('or 4 interest-free payments.')) ?>
+            <span class="pdp-bnpl-link"><?= $escaper->escapeHtml(__('Learn more')) ?></span>
+        </span>
+        <span class="bnpl-badge bnpl-badge--tabby">tabby</span>
+    </button>
+
+    <button type="button" class="pdp-bnpl-box" data-trigger="tamara-plans">
+        <span class="pdp-bnpl-text">
+            <?php if ($tamaraLong): ?>
+                <?= $escaper->escapeHtml(__('From')) ?>
+                <strong><?= $escaper->escapeHtml($money($monthly(12, $tamaraLongPlans[12]))) ?></strong>/<?= $escaper->escapeHtml(__('Month for up to 12 months, no late fees!')) ?>
+            <?php else: ?>
+                <strong><?= $escaper->escapeHtml($money($monthly(6, $tamaraPlans[6]))) ?></strong>/<?= $escaper->escapeHtml(__('Month for up to 6 months, no late fees!')) ?>
+            <?php endif; ?>
+            <span class="pdp-bnpl-link"><?= $escaper->escapeHtml(__('More options')) ?></span>
+        </span>
+        <span class="bnpl-badge bnpl-badge--tamara">tamara</span>
+    </button>
+</div>
+
+<div class="bnpl-plans" data-mage-init='{"Magento_Ui/js/modal/modal": {"type": "popup", "trigger": "[data-trigger=tabby-plans]", "buttons": [], "modalClass": "bnpl-modal"}}'>
+    <div class="bnpl-plans-header bnpl-plans-header--tabby">
+        <span class="bnpl-badge bnpl-badge--tabby">tabby</span>
+    </div>
+    <h2><?= $escaper->escapeHtml(__('Get more time to pay')) ?></h2>
+    <p><?= $escaper->escapeHtml(__('Split your purchase in up to 12 payments')) ?></p>
+    <ul class="bnpl-plan-list">
+        <?php foreach ($tabbyPlans as $months => $fee): ?>
+            <li>
+                <span>
+                    <?= $escaper->escapeHtml(__('%1 payments', $months)) ?>
+                    <?php if ($fee): ?>
+                        <small><?= $escaper->escapeHtml(__('Includes %1 monthly fee', $money($price * $fee / $months))) ?></small>
+                    <?php else: ?>
+                        <small class="bnpl-free"><?= $escaper->escapeHtml(__('No interest. No fees.')) ?></small>
+                    <?php endif; ?>
+                </span>
+                <strong><?= $escaper->escapeHtml($money($monthly($months, $fee))) ?>/mo</strong>
+            </li>
+        <?php endforeach; ?>
+    </ul>
+    <h3><?= $escaper->escapeHtml(__('How it works')) ?></h3>
+    <ol class="bnpl-steps">
+        <li><?= $escaper->escapeHtml(__('Choose Tabby at checkout to select a payment plan')) ?></li>
+        <li><?= $escaper->escapeHtml(__('Enter your information and add your debit or credit card')) ?></li>
+        <li><?= $escaper->escapeHtml(__('Depending on your plan, you may or may not make a down payment')) ?></li>
+        <li><?= $escaper->escapeHtml(__('We\'ll send you a reminder when your next payment is due')) ?></li>
+    </ol>
+</div>
+
+<div class="bnpl-plans" data-mage-init='{"Magento_Ui/js/modal/modal": {"type": "popup", "trigger": "[data-trigger=tamara-plans]", "buttons": [], "modalClass": "bnpl-modal"}}'>
+    <div class="bnpl-plans-header">
+        <span class="bnpl-badge bnpl-badge--tamara">tamara</span>
+    </div>
+    <h2><?= $escaper->escapeHtml(__('Your payment, your pace')) ?></h2>
+    <p><?= $escaper->escapeHtml(__('Pay as low as %1/mo, or in 6 payments', $money($monthly(12, $tamaraLongPlans[12])))) ?></p>
+    <h3><?= $escaper->escapeHtml(__('Example plans')) ?></h3>
+    <ul class="bnpl-plan-list">
+        <?php foreach ($tamaraPlans as $months => $fee): ?>
+            <li>
+                <span>
+                    <?= $escaper->escapeHtml($money($monthly($months, $fee))) ?>/mo
+                    <small><?= $escaper->escapeHtml($months >= 4 ? __('Fees may apply') : __('No fees')) ?></small>
+                </span>
+                <em class="bnpl-pill"><?= $escaper->escapeHtml(__('%1 Payments', $months)) ?></em>
+            </li>
+        <?php endforeach; ?>
+        <li>
+            <span>
+                <?= $escaper->escapeHtml($money($price)) ?>
+                <small><?= $escaper->escapeHtml(__('1% cashback and buyer protection')) ?></small>
+            </span>
+            <em class="bnpl-pill"><?= $escaper->escapeHtml(__('Pay in Full')) ?></em>
+        </li>
+    </ul>
+    <h3><?= $escaper->escapeHtml(__('Larger purchases, longer plans')) ?></h3>
+    <p><?= $escaper->escapeHtml(__('Pay in up to 12 payments on orders above %1.', $money(2000))) ?></p>
+    <ul class="bnpl-plan-list<?= $tamaraLong ? '' : ' bnpl-plan-list--locked' ?>">
+        <?php foreach ($tamaraLongPlans as $months => $fee): ?>
+            <li>
+                <span>
+                    <?= $escaper->escapeHtml($money($monthly($months, $fee))) ?>/mo
+                    <small><?= $escaper->escapeHtml(__('Fees may apply')) ?></small>
+                </span>
+                <em class="bnpl-pill"><?= $escaper->escapeHtml(__('%1 Payments', $months)) ?></em>
+            </li>
+        <?php endforeach; ?>
+    </ul>
+    <h3><?= $escaper->escapeHtml(__('How it works?')) ?></h3>
+    <ol class="bnpl-steps">
+        <li><?= $escaper->escapeHtml(__('Pick a plan that works for you. Choose Tamara at checkout and select the payment plan that fits your needs.')) ?></li>
+        <li><?= $escaper->escapeHtml(__('Pay your first payment securely. Enter your card details to make your first payment safely and instantly.')) ?></li>
+    </ol>
+</div>
+<?php endif; ?>

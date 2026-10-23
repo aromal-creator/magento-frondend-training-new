@@ -1,0 +1,23 @@
+<?php
+/**
+ * Product photos as a stacked grid (one wide, two side by side, repeat) instead of the Fotorama slider.
+ *
+ * @var \Magento\Catalog\Block\Product\View\Gallery $block
+ * @var \Magento\Framework\Escaper $escaper
+ */
+$productName = $block->getProduct()->getName();
+$width = $block->getImageAttribute('product_page_image_medium', 'width');
+$height = $block->getImageAttribute('product_page_image_medium', 'height');
+$position = 0;
+?>
+<div class="pdp-gallery">
+    <?php foreach ($block->getGalleryImages() as $image): ?>
+        <a class="pdp-gallery-item" href="<?= $escaper->escapeUrl($image->getData('large_image_url')) ?>"
+           target="_blank" rel="noopener">
+            <img src="<?= $escaper->escapeUrl($image->getData('large_image_url')) ?>"
+                 alt="<?= $escaper->escapeHtmlAttr($image->getLabel() ?: $productName) ?>"
+                 width="<?= (int)$width ?>" height="<?= (int)$height ?>"
+                 <?php if ($position++ === 0): ?>itemprop="image"<?php else: ?>loading="lazy"<?php endif; ?>/>
+        </a>
+    <?php endforeach; ?>
+</div>

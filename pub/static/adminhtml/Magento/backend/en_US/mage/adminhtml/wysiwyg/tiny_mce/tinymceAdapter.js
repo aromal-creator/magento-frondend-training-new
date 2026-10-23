@@ -1,0 +1,1 @@
+/var/www/html/training/lib/web/mage/adminhtml/wysiwyg/tiny_mce/tinymceAdapter.js

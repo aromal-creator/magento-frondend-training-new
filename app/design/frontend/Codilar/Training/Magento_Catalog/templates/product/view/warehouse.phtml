@@ -1,0 +1,16 @@
+<?php
+/** @var \Magento\Framework\View\Element\Template $block */
+/** @var \Magento\Framework\Escaper $escaper */
+?>
+<div class="pdp-warehouse">
+    <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
+        <path d="M3 21V9l9-5 9 5v12"/><path d="M7 21v-8h10v8"/><path d="M7 17h10"/><path d="M12 13v8"/>
+    </svg>
+    <div>
+        <strong><?= $escaper->escapeHtml(__('Warehouse')) ?></strong>
+        <p>
+            <?= $escaper->escapeHtml(__('Eligible for Warehouse Pickup.')) ?>
+            <a href="#"><?= $escaper->escapeHtml(__('Learn more')) ?></a>
+        </p>
+    </div>
+</div>

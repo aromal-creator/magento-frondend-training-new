@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <!-- Photos + details side by side in their own wrapper, so the sticky
+             details column stops at the end of the photos -->
+        <referenceContainer name="content">
+            <container name="pdp.top" htmlTag="div" htmlClass="pdp-top" before="-"/>
+        </referenceContainer>
+        <move element="product.info.media" destination="pdp.top" before="-"/>
+        <move element="product.info.main" destination="pdp.top" after="-"/>
+
+        <!-- Badge, title, category, SKU grouped at the top of the right column -->
+        <referenceContainer name="product.info.main">
+            <container name="product.info.heading" htmlTag="div" htmlClass="pdp-heading" before="-">
+                <block class="Magento\Catalog\Block\Product\View" name="product.info.badge"
+                       template="Magento_Catalog::product/view/badge.phtml"/>
+                <block class="Magento\Catalog\Block\Product\View" name="product.info.category"
+                       template="Magento_Catalog::product/view/category.phtml"/>
+            </container>
+        </referenceContainer>
+        <move element="page.main.title" destination="product.info.heading" after="product.info.badge"/>
+        <move element="product.info.stock.sku" destination="product.info.heading" after="product.info.category"/>
+
+        <referenceContainer name="product.info.main">
+            <!-- Sougha points + Tabby / Tamara instalments (between Add to Cart and Warehouse) -->
+            <block class="Magento\Catalog\Block\Product\View" name="product.info.bnpl"
+                   template="Magento_Catalog::product/view/bnpl.phtml" after="product.info"/>
+            <block class="Magento\Framework\View\Element\Template" name="product.info.warehouse"
+                   template="Magento_Catalog::product/view/warehouse.phtml" after="product.info.bnpl"/>
+            <block class="Magento\Catalog\Block\Product\View\Attributes" name="product.info.accordion"
+                   template="Magento_Catalog::product/view/accordion.phtml" after="product.info.warehouse"/>
+        </referenceContainer>
+
+        <referenceContainer name="product.info.media">
+            <block class="Magento\Catalog\Block\Product\View" name="product.info.new.label"
+                   template="Magento_Catalog::product/new-label.phtml" before="-"/>
+        </referenceContainer>
+
+        <!-- Service icons under the accordion in the right column -->
+        <referenceContainer name="product.info.main">
+            <block class="Magento\Framework\View\Element\Template" name="product.info.services"
+                   template="Magento_Catalog::product/view/services.phtml" after="product.info.accordion"/>
+        </referenceContainer>
+
+        <!-- 2XL shows no short description -->
+        <referenceBlock name="product.info.overview" remove="true"/>
+
+        <!-- Description + specs live in the accordion; the tabs keep only Reviews -->
+        <referenceBlock name="product.info.description" remove="true"/>
+        <referenceBlock name="product.attributes" remove="true"/>
+
+        <!-- Below the product: Complete the Collection (up-sells), Related Products, Recently Viewed -->
+        <move element="product.info.upsell" destination="content.aside" before="-"/>
+        <referenceContainer name="content.aside">
+            <block class="Magento\Catalog\Block\Widget\RecentlyViewed" name="product.recently.viewed"
+                   template="Magento_Catalog::product/widget/viewed/grid.phtml" after="-">
+                <arguments>
+                    <argument name="uiComponent" xsi:type="string">widget_recently_viewed</argument>
+                    <argument name="page_size" xsi:type="number">5</argument>
+                    <argument name="show_attributes" xsi:type="string">name,image,price</argument>
+                    <argument name="show_buttons" xsi:type="string"></argument>
+                </arguments>
+            </block>
+        </referenceContainer>
+
+        <!-- "New Arrival" badge on the Related / Complete the Collection cards -->
+        <referenceBlock name="catalog.product.related">
+            <block class="Magento\Framework\View\Element\Template" name="catalog.product.related.new.label"
+                   as="new_label" template="Magento_Catalog::product/new-label.phtml"/>
+        </referenceBlock>
+        <referenceBlock name="product.info.upsell">
+            <block class="Magento\Framework\View\Element\Template" name="product.info.upsell.new.label"
+                   as="new_label" template="Magento_Catalog::product/new-label.phtml"/>
+        </referenceBlock>
+
+        <!-- 2XL has no reviews section on the product page -->
+        <referenceBlock name="product.info.details" remove="true"/>
+
+        <!-- Keep only the wishlist heart -->
+        <referenceBlock name="product.info.mailto" remove="true"/>
+        <referenceBlock name="view.addto.compare" remove="true"/>
+    </body>
+</page>

@@ -1,0 +1,33 @@
+<?php
+/** @var \Magento\Catalog\Block\Product\View\Attributes $block */
+/** @var \Magento\Framework\Escaper $escaper */
+$product = $block->getProduct();
+$outputHelper = $this->helper(\Magento\Catalog\Helper\Output::class);
+$specs = $block->getAdditionalData();
+?>
+<div class="pdp-accordion">
+    <details open>
+        <summary><?= $escaper->escapeHtml(__('Product Description')) ?></summary>
+        <div class="pdp-accordion-content">
+            <?= /* @noEscape */ $outputHelper->productAttribute($product, $product->getDescription(), 'description') ?>
+            <?php if ($specs): ?>
+                <dl class="pdp-specs">
+                    <?php foreach ($specs as $spec): ?>
+                        <div class="pdp-spec">
+                            <dt><?= $escaper->escapeHtml($spec['label']) ?>:</dt>
+                            <dd><?= /* @noEscape */ $outputHelper->productAttribute($product, $spec['value'], $spec['code']) ?></dd>
+                        </div>
+                    <?php endforeach; ?>
+                </dl>
+            <?php endif; ?>
+        </div>
+    </details>
+    <details>
+        <summary><?= $escaper->escapeHtml(__('Shipping and Returns')) ?></summary>
+        <div class="pdp-accordion-content">
+            <p><?= $escaper->escapeHtml(__('The delivery schedule will depend on the item and the time when you placed the order.')) ?></p>
+            <p><?= $escaper->escapeHtml(__('The standard delivery for accessories is 2-3 working days and for furniture, it takes 5-7 working days.')) ?></p>
+            <a href="#"><?= $escaper->escapeHtml(__('Learn more')) ?></a>
+        </div>
+    </details>
+</div>

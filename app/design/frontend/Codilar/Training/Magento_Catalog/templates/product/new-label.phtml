@@ -1,0 +1,17 @@
+<?php
+/**
+ * "New Arrival" label, shown while today is inside the product's Set Product as New From/To dates.
+ * Used on the product page and on each product card in the listing.
+ *
+ * @var \Magento\Framework\View\Element\Template $block  Must have a product (getProduct())
+ * @var \Magento\Framework\Escaper $escaper
+ */
+$product = $block->getProduct();
+$today = date('Y-m-d');
+$from = $product->getNewsFromDate();
+$to = $product->getNewsToDate();
+$isNew = $from && substr($from, 0, 10) <= $today && (!$to || substr($to, 0, 10) >= $today);
+?>
+<?php if ($isNew): ?>
+    <span class="product-new-label"><?= $escaper->escapeHtml(__('New Arrival')) ?></span>
+<?php endif; ?>

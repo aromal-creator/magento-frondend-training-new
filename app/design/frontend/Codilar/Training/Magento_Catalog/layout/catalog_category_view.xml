@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <!-- One-column layout is set per category (Design > Layout); the Catalog module layout file wins over a theme layout attribute -->
+    <body>
+        <!-- Title first, breadcrumbs under it -->
+        <move element="breadcrumbs" destination="columns.top" after="page.main.title"/>
+
+        <!-- Filters sit in the bar next to the toolbar (rendered right after it) -->
+        <move element="catalog.leftnav" destination="category.product.list.additional"/>
+
+        <referenceBlock name="category.products.list">
+            <block class="Magento\Framework\View\Element\Template" name="category.product.new.label" as="new_label"
+                   template="Magento_Catalog::product/new-label.phtml"/>
+        </referenceBlock>
+
+        <!-- Hover bar: cart | view | wishlist (no compare) -->
+        <referenceBlock name="category.product.addto.compare" remove="true"/>
+        <referenceBlock name="category.product.addto">
+            <block class="Magento\Catalog\Block\Product\ProductList\Item\Block" name="category.product.addto.view"
+                   template="Magento_Catalog::product/list/addto/view.phtml" before="-"/>
+        </referenceBlock>
+    </body>
+</page>
