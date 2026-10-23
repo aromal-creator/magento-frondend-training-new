@@ -4,6 +4,21 @@
 
 // ---------- All screen sizes ----------
 & when (@media-common = true) {
+    // New dirham symbol: this font only has A, E, D and joins "AED" into the symbol;
+    // the numbers fall back to Jost. Only use it on amounts — it also turns a lone
+    // capital A / E / D in normal text into the symbol.
+    @font-face {
+        font-family: 'UAEDirham';
+        src: url('../fonts/dirham-currency-symbol.otf') format('opentype');
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .price,
+    .bnpl-amount,
+    .guest-wishlist-price {
+        font-family: 'UAEDirham', @font-family__base;
+    }
     .header-icons {
         display: flex;
         gap: 22px;

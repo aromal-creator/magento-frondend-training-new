@@ -10,7 +10,9 @@
  */
 $price = (float)$block->getProduct()->getPriceInfo()->getPrice('final_price')->getAmount()->getValue();
 $priceHelper = $this->helper(\Magento\Framework\Pricing\Helper\Data::class);
-$money = fn($amount) => $priceHelper->currency($amount, true, false);
+// Each amount in its own span so only the amount gets the dirham-symbol font
+$money = fn($amount) => '<span class="bnpl-amount">'
+    . $escaper->escapeHtml($priceHelper->currency($amount, true, false)) . '</span>';
 
 // Total fee on top of the price for each plan length
 $tabbyPlans = [4 => 0, 6 => 0.05, 8 => 0.09, 12 => 0.17];
@@ -31,7 +33,7 @@ $monthly = fn($months, $fee) => $price * (1 + $fee) / $months;
     <button type="button" class="pdp-bnpl-box" data-trigger="tabby-plans">
         <span class="pdp-bnpl-text">
             <?= $escaper->escapeHtml(__('As low as')) ?>
-            <strong><?= $escaper->escapeHtml($money($monthly(12, $tabbyPlans[12]))) ?>/<?= $escaper->escapeHtml(__('month')) ?></strong>
+            <strong><?= $escaper->escapeHtml($money($monthly(12, $tabbyPlans[12])), ['span']) ?>/<?= $escaper->escapeHtml(__('month')) ?></strong>
             <?= $escaper->escapeHtml(__('or 4 interest-free payments.')) ?>
             <span class="pdp-bnpl-link"><?= $escaper->escapeHtml(__('Learn more')) ?></span>
         </span>
@@ -42,9 +44,9 @@ $monthly = fn($months, $fee) => $price * (1 + $fee) / $months;
         <span class="pdp-bnpl-text">
             <?php if ($tamaraLong): ?>
                 <?= $escaper->escapeHtml(__('From')) ?>
-                <strong><?= $escaper->escapeHtml($money($monthly(12, $tamaraLongPlans[12]))) ?></strong>/<?= $escaper->escapeHtml(__('Month for up to 12 months, no late fees!')) ?>
+                <strong><?= $escaper->escapeHtml($money($monthly(12, $tamaraLongPlans[12])), ['span']) ?></strong>/<?= $escaper->escapeHtml(__('Month for up to 12 months, no late fees!')) ?>
             <?php else: ?>
-                <strong><?= $escaper->escapeHtml($money($monthly(6, $tamaraPlans[6]))) ?></strong>/<?= $escaper->escapeHtml(__('Month for up to 6 months, no late fees!')) ?>
+                <strong><?= $escaper->escapeHtml($money($monthly(6, $tamaraPlans[6])), ['span']) ?></strong>/<?= $escaper->escapeHtml(__('Month for up to 6 months, no late fees!')) ?>
             <?php endif; ?>
             <span class="pdp-bnpl-link"><?= $escaper->escapeHtml(__('More options')) ?></span>
         </span>
@@ -64,12 +66,12 @@ $monthly = fn($months, $fee) => $price * (1 + $fee) / $months;
                 <span>
                     <?= $escaper->escapeHtml(__('%1 payments', $months)) ?>
                     <?php if ($fee): ?>
-                        <small><?= $escaper->escapeHtml(__('Includes %1 monthly fee', $money($price * $fee / $months))) ?></small>
+                        <small><?= $escaper->escapeHtml(__('Includes %1 monthly fee', $money($price * $fee / $months)), ['span']) ?></small>
                     <?php else: ?>
                         <small class="bnpl-free"><?= $escaper->escapeHtml(__('No interest. No fees.')) ?></small>
                     <?php endif; ?>
                 </span>
-                <strong><?= $escaper->escapeHtml($money($monthly($months, $fee))) ?>/mo</strong>
+                <strong><?= $escaper->escapeHtml($money($monthly($months, $fee)), ['span']) ?>/mo</strong>
             </li>
         <?php endforeach; ?>
     </ul>
@@ -87,13 +89,13 @@ $monthly = fn($months, $fee) => $price * (1 + $fee) / $months;
         <span class="bnpl-badge bnpl-badge--tamara">tamara</span>
     </div>
     <h2><?= $escaper->escapeHtml(__('Your payment, your pace')) ?></h2>
-    <p><?= $escaper->escapeHtml(__('Pay as low as %1/mo, or in 6 payments', $money($monthly(12, $tamaraLongPlans[12])))) ?></p>
+    <p><?= $escaper->escapeHtml(__('Pay as low as %1/mo, or in 6 payments', $money($monthly(12, $tamaraLongPlans[12]))), ['span']) ?></p>
     <h3><?= $escaper->escapeHtml(__('Example plans')) ?></h3>
     <ul class="bnpl-plan-list">
         <?php foreach ($tamaraPlans as $months => $fee): ?>
             <li>
                 <span>
-                    <?= $escaper->escapeHtml($money($monthly($months, $fee))) ?>/mo
+                    <?= $escaper->escapeHtml($money($monthly($months, $fee)), ['span']) ?>/mo
                     <small><?= $escaper->escapeHtml($months >= 4 ? __('Fees may apply') : __('No fees')) ?></small>
                 </span>
                 <em class="bnpl-pill"><?= $escaper->escapeHtml(__('%1 Payments', $months)) ?></em>
@@ -101,19 +103,19 @@ $monthly = fn($months, $fee) => $price * (1 + $fee) / $months;
         <?php endforeach; ?>
         <li>
             <span>
-                <?= $escaper->escapeHtml($money($price)) ?>
+                <?= $escaper->escapeHtml($money($price), ['span']) ?>
                 <small><?= $escaper->escapeHtml(__('1% cashback and buyer protection')) ?></small>
             </span>
             <em class="bnpl-pill"><?= $escaper->escapeHtml(__('Pay in Full')) ?></em>
         </li>
     </ul>
     <h3><?= $escaper->escapeHtml(__('Larger purchases, longer plans')) ?></h3>
-    <p><?= $escaper->escapeHtml(__('Pay in up to 12 payments on orders above %1.', $money(2000))) ?></p>
+    <p><?= $escaper->escapeHtml(__('Pay in up to 12 payments on orders above %1.', $money(2000)), ['span']) ?></p>
     <ul class="bnpl-plan-list<?= $tamaraLong ? '' : ' bnpl-plan-list--locked' ?>">
         <?php foreach ($tamaraLongPlans as $months => $fee): ?>
             <li>
                 <span>
-                    <?= $escaper->escapeHtml($money($monthly($months, $fee))) ?>/mo
+                    <?= $escaper->escapeHtml($money($monthly($months, $fee)), ['span']) ?>/mo
                     <small><?= $escaper->escapeHtml(__('Fees may apply')) ?></small>
                 </span>
                 <em class="bnpl-pill"><?= $escaper->escapeHtml(__('%1 Payments', $months)) ?></em>
